@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/decorators">
+	
+    <decorator name="web" page="web.jsp">
+       <pattern>/*</pattern>
+    </decorator>
+    
+    <decorator name="admin" page="admin.jsp">
+       <pattern>/admin*</pattern>
+    </decorator>
+
+    <decorator name="login" page="login.jsp">
+        <pattern>/dang-nhap</pattern>
+    </decorator>
+    <decorator name="register" page="register.jsp">
+        <pattern>/dang-ky</pattern>
+    </decorator>
+    
+    <decorator name="cart" page="cart.jsp">
+        <pattern>/cart</pattern>
+    </decorator>
+    <decorator name="checkout" page="checkout.jsp">
+        <pattern>/check-out</pattern>
+    </decorator>
+    <decorator name="detail" page="detail.jsp">
+        <pattern>/chi-tiet/*</pattern>
+    </decorator>
+</decorators>

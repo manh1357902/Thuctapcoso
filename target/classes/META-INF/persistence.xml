@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+    <persistence-unit name="persistence-data">
+        <class>com.bookstore.entity.CartItemEntity</class>
+        <class>com.bookstore.entity.ShoppingCartEntity</class>
+    	<class>com.bookstore.entity.BaseEntity</class>
+        <class>com.bookstore.entity.UserEntity</class>
+        <class>com.bookstore.entity.RoleEntity</class>
+        <class>com.bookstore.entity.BookEntity</class>
+        <class>com.bookstore.entity.CategoryEntity</class>
+        <class>com.bookstore.entity.OrderEntity</class>
+        <class>com.bookstore.entity.OrderDetailEntity</class>
+    </persistence-unit>
+</persistence>
